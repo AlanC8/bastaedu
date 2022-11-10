@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background: #FBFBFF;
+}
+
+.container {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.prewelcome a {
+    text-decoration: none;
+    color: black;
+}
+
+.prewelcome p {
+    font-size: 14px;
+}
+
+.prewelcome {
+    padding: 5px;
+}
+
+.prewelcome span {
+    text-decoration: underline;
+}
+
+
+/* WELCOME  */
+.welcome-inner {
+    margin-top: 30px;
+}
+
+.welcome-img img {
+    width: 50%;
+}
+
+.welcome-title p {
+    opacity: 0.8;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.welcome-par{
+    opacity: 0.8;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.welcome-about-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 25px;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+
+.welcome-about {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 25%;
+    padding: 5px;
+}
+
+.welcome-preimg img {
+    padding-right: 20px;
+}
+
+.welcome-about-list {
+    background: #fff;
+}
+
+.welcome-pretitle p:first-child {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* plan-section  */
+.plan-section {
+    margin-top: 80px;
+}
+.plan-closure{
+    margin-top: 15px;
+}
+.plan-closure p {
+    font-size: 14px;
+    opacity: 0.8;
+    width: 60%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.plan-closure details{
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}

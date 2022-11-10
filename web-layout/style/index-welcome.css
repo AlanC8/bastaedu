@@ -1,0 +1,52 @@
+.welcome {
+    padding: 45px 0;
+}
+
+.welcome-left-side h2 span {
+    color: #306ed8;
+}
+
+.welcome-left-side h2 {
+    font-size: 42px;
+    color: #252525;
+    line-height: 120%;
+}
+
+.welcome-left-side p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 150%;
+}
+
+.welcome-left-side p span {
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.welcome-left-side button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: #306ed8;
+    color: white;
+    padding: 14px 14px 14px 24px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.welcome-left-side button span {
+    font-size: 18px;
+    padding-left: 10px;
+    overflow-y: hidden;
+}
+
+.welcome-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-right-side img {
+    width: 700px;
+}

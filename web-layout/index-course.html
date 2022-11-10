@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="assets/Group 2 1.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/course.css">
+    <link rel="stylesheet" href="style/index-footer.css">
+    <link rel="stylesheet" href="style/course-cards.css">
+    <link rel="stylesheet" href="style/index-header.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,500,0,-25" />
+    <title>Курсы » Basta Education</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header-logo">
+                <img src="assets/Ellipse 1.png" alt="">
+                <p>BASTA <span>EDU</span></p>
+            </div>
+            <div class="header-links">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#">Наши Курсы</a></li>
+                    <li><a href="#">Преподаватели</a></li>
+                    <li><a href="#">Новости</a></li>
+                </ul>
+            </div>
+            <div class="header-cab">
+                <div class="header-cab-btn">
+                    <a href="index-lab.html"><button>Личный Кабинет <span class="material-symbols-outlined">
+                                arrow_forward_ios
+                            </span></button></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="all-course">
+        <div class="container">
+            <div class="all-course-inner">
+                <div class="all-course-content">
+                    <div class="all-course-items english">
+                        <div class="cards-above">
+                            <div class="cards-title">
+                                <div class="cards-img">
+                                    <img src="assets/Group 2 1.png" alt="">
+                                </div>
+                                <div class="cards-about">
+                                    English
+                                </div>
+                            </div>
+                            <div class="cards-info">
+                                Тест на уровень <br>
+                                Виды группы по желанию <br>
+                                1 Уровень минимум за 2 месяца <br>
+                                English Club с носителем язык <br>
+                            </div>
+                        </div>
+                        <div class="cards-more">
+                            <span class="material-symbols-outlined">
+                                arrow_forward
+                                </span>
+                        </div>
+                    </div>
+                    <div class="all-course-items ielts">
+                        <div class="cards-above">
+                            <div class="cards-title">
+                                <div class="cards-img">
+                                    <img src="assets/Group 2 1.png" alt="">
+                                </div>
+                                <div class="cards-about">
+                                    IELTS
+                                </div>
+                            </div>
+                            <div class="cards-info">
+                                Готовые материалы <br>
+                                Academic English Club <br>
+                                Тестирование айлтс 1 раз в неделю <br>
+                            </div>
+                        </div>
+                        <div class="cards-more">
+                            <span class="material-symbols-outlined">
+                                arrow_forward
+                                </span>
+                        </div>
+                    </div>
+                    <div class="all-course-items prog">
+                        <div class="cards-above">
+                            <div class="cards-title">
+                                <div class="cards-img">
+                                    <img src="assets/Group 2 1.png" alt="">
+                                </div>
+                                <div class="cards-about">
+                                    Programming
+                                </div>
+                            </div>
+                            <div class="cards-info">
+                                Node Js <br>
+                                Анимации <br>
+                                Кроссбраузеринг <br>
+                                Адаптивная верстка <br>
+                                WEB-developer курс<br>
+                            </div>
+                        </div>
+                        <div class="cards-more">
+                            <span class="material-symbols-outlined">
+                                arrow_forward
+                                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-item footer-column1">
+                    <h1>Basta<span>Education</span></h1>
+                    <p>Подготовим к ЕНТ на 100+ баллов,
+                        и поможем поступить на грант</p>
+                    <p>© BastaEducation, 2022</p>
+                </div>
+                <div class="footer-item footer-column2">
+                    <h3>O Basta<span>Education</span></h3>
+                    <p><a href="index-course.html">Наши Курсы</a></p>
+                    <p><a href="#">Преподаватели</a></p>
+                    <p><a href="#">Новости</a></p>
+                    <p><a href="#">Новости</a></p>
+                </div>
+                <div class="footer-item footer-column3">
+                    <h3>Контактные данные</h3>
+                    <p>Телефон для связи</p>
+                    <div class="footer-nums">
+                        <p onclick="copyContent()" style="cursor: pointer;" id="id-num">+7 (707) 561-28-65</p>
+                        <p onclick="copyContent1()" style="cursor: pointer;" id="id-num1">+7 (778) 488-90-08</p>
+                    </div>
+                </div>
+                <div class="footer-item footer-column4">
+                    <h3>Мы в соц.сетях</h3>
+                    <div class="footer-links">
+                        <a href="#"><img src="assets/logo-ig-instagram-new-logo-vector-download-5.png"
+                                alt="Instagram"></a>
+                        <a href="#"><img src="assets/logo-icone-tiktok-simbolo-noir.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let num = document.querySelector("#id-num").innerHTML;
+        let num1 = document.querySelector("#id-num1").innerHTML;
+
+        const copyContent = async () => {
+            try {
+                await navigator.clipboard.writeText(num);
+                alert('Вы скопировали номер!');
+            } catch (err) {
+                console.error('Не удалось скопировать: ', err);
+            }
+        }
+
+        const copyContent1 = async () => {
+            try {
+                await navigator.clipboard.writeText(num1);
+                alert('Вы скопировали номер!');
+            } catch (err) {
+                console.error('Не удалось скопировать: ', err);
+            }
+        }
+    </script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

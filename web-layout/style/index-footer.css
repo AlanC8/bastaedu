@@ -1,0 +1,50 @@
+.footer{
+    background: #252525;
+    padding: 45px 0 45px 0;
+}
+.footer-column1 h3 span{
+    text-decoration: underline;
+}
+.footer-inner{
+    color: white;
+}
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links img{
+    width: 24px;
+    filter: invert(1);
+    opacity: 0.8;
+}
+.footer-column1{
+    width: 30%;
+}
+.footer-item h3{
+    margin-bottom: 35px;
+    opacity: 0.9;
+}
+.footer-item h1{
+    margin-bottom: 25px;
+}
+.footer-column1 p{
+    margin-bottom: 25px;
+    opacity: 0.8;
+}
+.footer-nums{
+    margin-top: 10px;
+    opacity: 0.8;
+    line-height: 150%;
+}
+.footer-column2 p{
+    opacity: 0.8;
+    line-height: 200%;
+    cursor: pointer;
+}
+.footer-column2 p a{
+    text-decoration: none;
+    color: white;
+}
+.footer-links img {
+    margin-right: 10px;
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+body{
+    background:  #FBFBFF;
+}
+header{
+    text-align: center;
+    padding-top: 25px;
+}
+p {
+    font-size: 36px;
+    font-weight: 700;
+    color: #252525;
+}
+
+p span {
+    color: #ad2525;
+}
+
+
+.login-page{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+
+button input{
+    border: none;
+    padding: 0;
+    background: none;
+    color: #FBFBFF;
+    font-weight: 500;
+}
+button span{
+    font-size: 16px;
+    overflow: hidden;
+    margin-left: 5px;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #306ed8;
+    color: white;
+    padding: 12px 14px 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+.login-page-right{
+    margin-left: 30px;
+    width: 370px;
+    background:white;
+    padding-right: 20px;
+    border-radius: 0 12px 12px 0;
+    padding-top: 25px;
+}
+.login-page-right h3{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 36px;
+    opacity: 0.8;
+}
+.login-page-right form{
+    display: flex;
+    flex-direction: column;
+}
+.login-page-left img{
+    width: 350px;
+    height: 480px;
+    border-radius: 12px 0 0 12px;
+}
+form input:nth-child(2){
+    margin-bottom: 25px;
+    padding: 14px 18px;
+    border-radius: 6px;
+}
+form input:nth-child(3){
+    margin-bottom: 25px;
+    padding: 14px 18px;
+    border-radius: 6px;
+}
+h6{
+    margin-top: 10px;
+    opacity: 0.8;
+    margin: 10px auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 85%;
+}

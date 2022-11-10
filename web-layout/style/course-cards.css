@@ -1,0 +1,45 @@
+.all-course{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.all-course-items{
+    height: 270px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin:30px;
+}
+.all-course-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.cards-img img{
+    width: 64px;
+    margin-right: 15px;
+}
+
+.cards-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.cards-info{
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+.cards-about{
+    font-size: 20px;
+    font-weight: 500;
+}
+.cards-more{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
